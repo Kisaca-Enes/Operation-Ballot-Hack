@@ -1,5 +1,5 @@
 CTF Hikayesi: “Voteportal Sızması”
-
+ip:10.0.10.0
 Siber dünyada kritik bir görev seni bekliyor. Ülkenin seçim sonuçlarını yöneten voteportal.gov isimli devlet portalı, ciddi güvenlik açıkları taşıyor. Sen ve ekibin, bu açıkları keşfedip yetkisiz erişim sağlayarak seçim sonuçlarını koruma altına almakla görevlisiniz. Ancak bu sadece teknik bilgi değil, aynı zamanda dikkat, sabır ve yaratıcılık gerektiriyor.
 
 Portala yapılan Nmap taraması, birçok açık port ve zafiyet olduğunu ortaya koyuyor: HTTP, MySQL, Apache, nginx gibi hizmetler eski ve yamalı değil. Gobuster benzeri dizin tarama araçlarıyla gizli dizinler keşfediliyor: /admin/, /login.php, hatta yanlışlıkla yedeklenen kritik dosyalar.
