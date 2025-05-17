@@ -18,8 +18,7 @@ Web Dizin ve Dosya Tarama:
 Temel Web Güvenlik Açıkları:
 Metasploit Kullanımı:
 Sosyal Mühendislik ve Bilgi Toplama:
-Temel Linux ve Python Bilgisi:
-
+Temel Linux ve Python Bilgisi
 
 
 
