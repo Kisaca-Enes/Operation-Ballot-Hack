@@ -131,6 +131,7 @@ b"\\x31\\xc0\\x50\\x68\\x2f\\x2f\\x73\\x68\\x68\\x2f\\x62\\x69\\x6e\\x89\\xe3\\x
 b"\\x90\\x90\\x90\\x90"
 '''
 
+
 while True:
     yazi = input("welcome.apt: ").strip()
 
@@ -152,47 +153,51 @@ while True:
         print("forbidden")
     elif yazi in "/config.php.bak":
         print("mysql:Apache Tika-server < 1.18")
-    elif yazi in msf:
+    elif yazi in 'msf':
         print(msf)
-    elif yazi in "use exploit/multi/http/tika_server_injection":
-        print("exploit baslatildi...")
-        time.sleep(20)
-        print("devam ediyor...")
-        time.sleep(10)
-        yazi2 = input("msf> ").strip()
-        if yazi2 in "ls":
-            print("mysql.db")
-        elif yazi2 in "cat mysql.db":
-            print(kgb)
-            print('umarım gobuster atmışsındır. Napman gerektiğin gayet iyi biliyorsun...')
-        elif yazi2 in 'lavrov1980.yandex.ru':
-            print(dosyalar)
-        elif yazi2 in ['1', '2', '3', '4', '5', '7', '8']:
-            print('güzel günler')
-        elif yazi2 in ['6', '9']:
-            print('uygunsuz bi fotoğraf var çocuğuyla ilgili işte anladın sen bu bilgiyi kullan social engineering için umarım gobuster atmışsındır başında?')
-            print('ne yapacağını anlamadıysan bana mı soruyorsun kardeş hayal gücünü kullan he unutmadan şifre 123')
-        elif yazi2 in 'http://smtp.voteportal.gov':
-            os.system('python3 2.py')
-        elif yazi2 in '/tetikle':
-            yazi3 = input('tekrardan hoş geldin çok işimiz var: ').strip()
-            if yazi3 in 'reg add':
-                print('yetkili olduğumuza göre dosyaları okuyalım')
-            elif yazi3 in 'ls':
-                print('iletişim.exe')
-            elif yazi3 in 'iletişim.exe':
-                os.system('python3 iletişim.py')
-            elif yazi3 in '/bağlan':
-                yazi4 = input('son saldırı yorumluş olmalısın hazırmısın: bilgitopla.py ').strip()
-                if yazi4 in 'python3 bilgitopla.py':
-                    print(zafiyet)
-                elif yazi4 in 'gbd run info register':
-                    print('264')
-                elif yazi4 in 'leak puts_addr base_libc = puts_addr - offset_puts':
-                    print('güzel şimdi exploit diyerek exploit i yaz')
-                    print(ex)
-                    print('bunu kullan')
-                elif yazi4 in 'exploit':
-                    os.system('python3 exploit.py')
+    elif yazi in 'use exploit/multi/http/tika_server_injection':
+        
+        while True:
+            yazi2 = input("msf> ").strip()
+
+            if yazi2 in "exit":
+                print("msf modundan çıkılıyor...")
+                break
+            elif yazi2 in "ls":
+                print("mysql.db")
+            elif yazi2 in "cat mysql.db":
+                print(kgb)
+                print('umarım gobuster atmışsındır. Napman gerektiğin gayet iyi biliyorsun...')
+            elif yazi2 in 'lavrov1980.yandex.ru':
+                print(dosyalar)
+            elif yazi2 in ['1', '2', '3', '4', '5', '7', '8']:
+                print('güzel günler')
+            elif yazi2 in ['6', '9']:
+                print('uygunsuz bi fotoğraf var çocuğuyla ilgili işte anladın sen bu bilgiyi kullan social engineering için umarım gobuster atmışsındır başında?')
+                print('ne yapacağını anlamadıysan bana mı soruyorsun kardeş hayal gücünü kullan he unutmadan şifre 123')
+            elif yazi2 in "http://smtp.voteportal.gov":
+                os.system('python3 2.py')
+            elif yazi2 in "/tetikle":
+                yazi3 = input('tekrardan hoş geldin çok işimiz var: ').strip()
+                if yazi3 in 'reg add':
+                    print('yetkili olduğumuza göre dosyaları okuyalım')
+                elif yazi3 in 'ls':
+                    print('iletişim.exe')
+                elif yazi3 in 'iletişim.exe':
+                    os.system('python3 iletişim.py')
+                elif yazi3 in '/bağlan':
+                    yazi4 = input('son saldırı yorumluş olmalısın hazırmısın: bilgitopla.py ').strip()
+                    if yazi4 in 'python3 bilgitopla.py':
+                        print(zafiyet)
+                    elif yazi4 in 'gbd run info register':
+                        print('264')
+                    elif yazi4 in 'leak puts_addr base_libc = puts_addr - offset_puts':
+                        print('güzel şimdi exploit diyerek exploit i yaz')
+                        print(ex)
+                        print('bunu kullan')
+                    elif yazi4 in 'exploit':
+                        os.system('python3 exploit.py')
+            else:
+                print("msf: Komut tanınmadı.")
     else:
         print("Komut tanınmadı.")
