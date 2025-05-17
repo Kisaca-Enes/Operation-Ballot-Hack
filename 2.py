@@ -3,7 +3,7 @@
 keywords = {
     "işten çıkarılma": 20,
     "uygunsuz fotoğraf": 15,
-    "çocuk": 10,
+    "şirket": 10,
     "iş yeri": 10,
     "tehdit": 15,
     "geri dönüş": 10,
