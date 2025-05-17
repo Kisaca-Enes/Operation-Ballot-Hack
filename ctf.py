@@ -173,8 +173,8 @@ while True:
             elif yazi2 in ['1', '2', '3', '4', '5', '7', '8']:
                 print('güzel günler')
             elif yazi2 in ['6', '9']:
-                print('uygunsuz bi fotoğraf var çocuğuyla ilgili işte anladın sen bu bilgiyi kullan social engineering için umarım gobuster atmışsındır başında?')
-                print('ne yapacağını anlamadıysan bana mı soruyorsun kardeş hayal gücünü kullan he unutmadan şifre 123')
+                print('uygunsuz bi fotoğraf var  işte anladın sen bu bilgiyi kullan social engineering için umarım gobuster atmışsındır başında?')
+                print('ne yapacağını anlamadıysan bana mı soruyorsun kardeş hayal gücünü kullan he unutmadan')
             elif yazi2 in "http://smtp.voteportal.gov":
                 os.system('python3 2.py')
             elif yazi2 in "/tetikle":
