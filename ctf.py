@@ -142,7 +142,7 @@ while True:
         print('[Mail Server] - smtp.voteportal.gov (10.0.0.11)')
     elif yazi in "http://smtp.voteportal.gov":
         print('ipucu sızdıktan sonra kullanıcan')
-    elif yazi in cikti:
+    elif yazi in 'gobuster dir':
         print(cikti)
     elif yazi in "/login.php":
         print("welcome to login")
