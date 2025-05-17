@@ -8,35 +8,17 @@ Metasploit modülleri arasında Tomcat upload, Struts2 OGNL, EternalBlue gibi ka
 
 Bu CTF, temel Linux ve Windows zafiyetleri, ağ taraması, dosya keşfi, exploit geliştirme, kimlik doğrulama bypass gibi pek çok yeteneği sınar. Başarı, sadece script çalıştırmak değil; doğru adımları, uygun araçları ve stratejiyi seçmekle gelir.
 
-Nasıl, böyle kısa ve motive edici bir hikaye işine yarar mı? Başka bir tarz da yazabilirim tabii!
 
+zorluk
+orta üstü
 
-
-
-
-
-
-Şunu dedin:
-Ctf nın adı ne olsun
-
-
-
-2/2
-
-ChatGPT:
-Bence şu isimler güzel olur:
-
-“Voteportal Breach”
-
-“Operation Ballot Hack”
-
-“Election Shadows”
-
-“Polls Under Siege”
-
-“CyberVote Capture”
-
-Senin tarzına en yakın olanı seçebilirsin ya da istersen birlikte daha havalı isimler buluruz! Ne dersin?
+gereken bilgiler
+Ağ Tarama ve Servis Keşfi:
+Web Dizin ve Dosya Tarama:
+Temel Web Güvenlik Açıkları:
+Metasploit Kullanımı:
+Sosyal Mühendislik ve Bilgi Toplama:
+Temel Linux ve Python Bilgisi:
 
 
 
